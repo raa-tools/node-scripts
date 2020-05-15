@@ -4,7 +4,7 @@ const fs = require("fs")
 const path = require("path")
 
 if (process.argv.length !== 4) {
-  console.error(`This script's signature: ${process.argv[0]} ${process.argv[1] baseDirectory packagedDirectory}`)
+  console.error(`This script's signature: ${process.argv[0]} ${process.argv[1]} baseDirectory packagedDirectory}`)
   return
 }
 
